@@ -14,7 +14,7 @@ square_wave_pin = 17
 # 5.0  == 0.675 l/m
 # 10.0 == 1.35  l/m
 # 20.0 == 2.7   l/m
-frequency = 20.0
+frequency = 10
 
 seconds = 1 / (2 * frequency)
 GPIO.setmode(GPIO.BCM)
